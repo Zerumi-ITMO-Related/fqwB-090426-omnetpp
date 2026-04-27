@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/fqwb_090426_omnetpp -n .:../src $*
+# for shared lib, use: opp_run -l ../src/fqwb_090426_omnetpp -n .:../src $*
