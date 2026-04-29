@@ -39,9 +39,6 @@ import inet.node.inet.Router;
 import inet.node.inet.StandardHost;
 import inet.node.ethernet.Eth10G;
 
-//
-// TODO Auto-generated network
-//
 network Cars
 {
     parameters:
