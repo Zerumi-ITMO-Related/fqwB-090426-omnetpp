@@ -1,0 +1,5 @@
+<launch>
+    <copy file="neva.net.xml"/>
+    <copy file="neva-routes.rou.xml"/>
+    <copy file="sumo.cfg" type="config"/>
+</launch>
