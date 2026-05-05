@@ -73,9 +73,9 @@ network Cars
         server: StandardHost {
             @display("p=251919,16509;is=n;i=device/server");
         }
-        speedtest: StandardHost {
-            @display("p=251877,22599;is=n;i=device/server");
-        }
+//        speedtest: StandardHost {
+//            @display("p=251877,22599;is=n;i=device/server");
+//        }
         router: Router {
             @display("p=191385,19567;i=device/smallrouter");
         }
@@ -507,7 +507,7 @@ network Cars
 
     connections allowunconnected:
         server.pppg++ <--> Eth100G <--> router.pppg++;
-        speedtest.pppg++ <--> Eth100G <--> router.pppg++;
+        //speedtest.pppg++ <--> Eth100G <--> router.pppg++;
         router.pppg++ <--> Eth100G <--> pgw.filterGate;
 
         pgw.pppg++ <--> Eth100G <--> eNodeB0.ppp;
