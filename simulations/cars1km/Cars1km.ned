@@ -2090,6 +2090,10 @@ network Cars1km
             @display("p=390456.71,467688.55");
         }
 
+        car[0]: LteCar {
+            @display("i=,,0;p=260002,1077009");
+        }
+
     connections allowunconnected:
         server.pppg++ <--> Eth100G <--> router.pppg++;
         speedtest.pppg++ <--> Eth100G <--> router.pppg++;
